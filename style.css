@@ -1,0 +1,131 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+  }
+
+nav {
+  background-color: black;
+  display: block;
+  position:relative;
+  margin-top: 30px;
+  text-align: right;
+}
+
+ul li{
+  color: whitesmoke;
+  display: inline-block;
+  margin: 10px;
+  margin-right: 35px;
+  text-decoration: none;
+}
+
+li:hover {
+  color: orange;
+}
+
+.head {
+  flex: 1;
+}
+
+.main {
+  display: flex;
+  gap: 10px;
+  padding-top: 0;
+  text-align: justify;
+  }
+
+h1 {
+  font-size: 4.5rem;
+  width: 100%;
+  margin-bottom: 10px;
+  text-align: center;
+  
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+  margin-left:  30px;
+}
+
+.creative {
+  color: purple;
+}
+
+/*contact us page*/
+p {
+  text-align: left;
+  font-style: sans serif;
+  display: flex;
+  background-color: #faf9f6;
+}
+
+button {
+  background-color: blue;
+  border-radius: 5px;
+  border-color: white;
+  width: 100px;
+  color: white
+}
+
+button:hover {
+  color: orange;
+}
+
+/*mobile session*/
+
+@media (max-width: 500px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;  
+    width: 100%;
+    padding: 0;
+    
+  }
+  .creative {
+    color: red;
+  }
+  
+  nav {
+    width: 100%;
+    font-size: 0.6rem;
+    text-align: right;
+  }
+
+  li {
+    display: flex;
+    gap: 10px;
+  }
+  .main {
+    width: 100%;
+    display: block;
+    text-align: justify;
+  }
+  .tile-image {
+    align-items: center;
+  }
+  }
+
+
+
+  
+
+  
+
+
+
+
